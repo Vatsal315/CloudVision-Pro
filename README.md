@@ -219,6 +219,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the cloud-native community**
 
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=your-username.cloudvision-pro)
-
-</div>
