@@ -17,7 +17,8 @@
 
 ## 📸 Dashboard Preview
 
-![CloudVision Pro Dashboard](assets/dashboard-screenshot.png)
+<img width="2152" height="1640" alt="image" src="https://github.com/user-attachments/assets/a8e70c60-a267-47b3-b268-3c5a17cade8d" />
+
 
 > **Live Dashboard showing real-time CPU and Memory monitoring with professional glassmorphism UI design**
 
