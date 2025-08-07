@@ -158,41 +158,7 @@ docker push <your-account>.dkr.ecr.us-east-1.amazonaws.com/cloudvision-pro:lates
 kubectl set image deployment/cloudvision-pro cloudvision-container=<your-account>.dkr.ecr.us-east-1.amazonaws.com/cloudvision-pro:latest
 ```
 
-## 📋 Features Deep Dive
 
-### Real-time Monitoring
-- **CPU Metrics**: Live processor utilization with color-coded status
-- **Memory Tracking**: Real-time RAM usage with threshold alerts
-- **Auto-refresh**: Seamless updates every 30 seconds
-
-### Professional UI Components
-- **Animated Particles**: Floating background elements for visual appeal
-- **Glassmorphism Cards**: Modern translucent design with blur effects
-- **Gradient Backgrounds**: Multiple layer gradients for depth
-- **Hover Animations**: Smooth transitions and interactive feedback
-
-### Smart Alerting System
-- **Green Status**: 0-50% resource usage (Optimal)
-- **Yellow Warning**: 50-80% resource usage (Monitor)
-- **Red Alert**: 80%+ resource usage (Scale Up Required)
-
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `FLASK_ENV` | Flask environment | `production` |
-| `HOST` | Application host | `0.0.0.0` |
-| `PORT` | Application port | `8080` |
-| `DEBUG` | Debug mode | `True` |
-
-### Customization
-
-- **Thresholds**: Modify alerting thresholds in `app.py`
-- **Refresh Rate**: Adjust auto-refresh interval in `templates/index.html`
-- **Styling**: Customize colors and animations in the CSS section
-- **Branding**: Update company branding and logos
 
 ## 📊 Monitoring Metrics
 
@@ -247,24 +213,7 @@ FLASK_ENV=development python app.py
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
 
-- **Plotly.js** - Beautiful interactive visualizations
-- **Font Awesome** - Professional iconography
-- **Flask** - Lightweight web framework
-- **psutil** - System monitoring capabilities
-- **Docker** - Containerization platform
-- **Kubernetes** - Container orchestration
-
-## 📞 Support
-
-- 📧 Email: your-email@example.com
-- 💬 Issues: [GitHub Issues](../../issues)
-- 📖 Documentation: [Wiki](../../wiki)
-
----
-
-<div align="center">
 
 **⭐ Star this repository if you find it helpful!**
 
